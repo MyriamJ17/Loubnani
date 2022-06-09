@@ -14,24 +14,15 @@
   
 nav {
     display: flex;
-    justify-content: space-between; 
     align-items: center; 
     min-height: 8vh; 
     background-color:red;
 }
   
-.heading {
-    color: white;
-    text-transform: uppercase;
-    justify-content: start;
-    letter-spacing: 2px;
-    font-size: 120%;
-    padding-left: 5%;
-}
-  
 .nav-links {
     display: flex;
-    justify-content:end;
+    justify-content:start;
+    padding-left: 2%;
     width: 30%;
 }
   
