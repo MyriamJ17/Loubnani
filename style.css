@@ -51,39 +51,6 @@ li {
     padding: 5px 15px;
 }
 
-
-/* DROPDOWN MENU 
-.services {
-    position: relative; 
-}
-
-.dropdown {
-    background-color: red;
-    position: absolute;
-    display: none;
-    border-radius: 8px;
-    top: 32px;
-}
-
-.dropdown li + li {
-    margin-top: 10px;
-}
-
-.dropdown li {
-    padding: 0.5em 1em;
-    width: 8em;
-    text-align: center;
-}
-
-.dropdown li:hover {
-    background-color: rgb(255, 100, 100);
-}
-
-.services:hover .dropdown {
-    display: block;
-}
-*/
-
 /*RESPONSIVE NAVBAR MENU STARTS*/
 /* CHECKBOX HACK */
 input[type=checkbox]{
@@ -126,17 +93,6 @@ input[type=checkbox]{
     .hamburger {
         display: block;
     }
-/*
-    .dropdown {
-        left: 50%;
-        top: 30px;
-        transform: translateX(35%);
-    }
-
-    .dropdown li:hover {
-        background-color: rgb(255, 100, 100);
-    }
-*/
 }
 
 /*FOOTER*/
