@@ -1,0 +1,200 @@
+/*HEADER*/
+
+/* UTILITIES */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat";
+}
+a {
+    text-decoration: none;
+}
+
+li {
+        list-style: none;
+}
+
+/* NAVBAR STYLING STARTS */
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: red;
+    color: #fff;
+}
+
+.nav-links a {
+    color: white;
+}
+
+
+/* LOGO */
+.logo {
+    font-size: 32px;
+}
+
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 1em;
+    font-size: 18px;
+}
+
+.menu li:hover {
+    background-color: rgb(255, 100, 100);
+    border-radius: 5px;
+}
+
+.menu li {
+    padding: 5px 15px;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+}
+
+/*HAMBURGER MENU*/
+.hamburger {
+    display: none;
+    font-size: 24px;
+    user-select: none;
+}
+
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+    .menu { 
+        display:none;
+        position: absolute;
+        background-color:red;
+        right: 0;
+        left: 0;
+        text-align: center;
+        padding: 16px 0;
+    }
+
+    .menu li:hover {
+        display: inline-block;
+        background-color:rgb(255, 100, 100);
+        transition: 0.3s ease;
+    }
+
+    .menu li + li {
+        margin-top: 12px;
+       }
+
+    input[type=checkbox]:checked ~ .menu{
+        display: block;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+/*BODY*/
+.services{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    row-gap: 20px;
+}
+
+.services1{
+    border: solid 6px rgb(0,128,0);
+    width: 600px;
+    height: 150px;   
+}
+
+/*FOOTER*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #fcfcfc;
+    font-family: sans-serif;
+}
+
+footer{
+    position:relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(255, 0, 0);
+    height: auto;
+    width: 100%;
+    padding-top: 2px;
+    color: #fff;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3{
+    font-size: 2.1rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 800px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+    color: white;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li{
+    margin: 0 10px;
+}
+
+.socials a{
+    text-decoration: none;
+    color: white;
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+
+.socials a:hover{
+    background-color: white;
+}
+
+.socials a:hover i{
+    color: red;;
+}
+
+@media (max-width:768px) {
+    .footer-menu ul{
+      display: flex;
+      margin-top: 10px;
+      margin-bottom: 20px;
+    }
+}
