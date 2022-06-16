@@ -34,14 +34,14 @@ li {
 
 /* LOGO */
 .logo {
-    font-size: 32px;
+    font-size: 45px;
 }
 
 /* NAVBAR MENU */
 .menu {
     display: flex;
     gap: 1em;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .menu li:hover {
@@ -50,7 +50,7 @@ li {
 }
 
 .menu li {
-    padding: 5px 15px;
+    padding: 5px 7px;
 }
 
 /*RESPONSIVE NAVBAR MENU STARTS*/
@@ -185,6 +185,18 @@ footer{
 }
 
 @media (max-width:768px) {
+        footer{
+        position:sticky;
+        height: auto;
+        left: 0;
+        right: 0;
+        background: rgb(255, 0, 0);
+        height: auto;
+        width: 100%;
+        padding-top: 2px;
+        color: #fff;
+
+    }
     .footer-menu ul{
       display: flex;
       margin-top: 10px;
