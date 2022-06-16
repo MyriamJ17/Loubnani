@@ -17,6 +17,8 @@ li {
 
 /* NAVBAR STYLING STARTS */
 .navbar {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -114,7 +116,7 @@ body{
 }
 
 footer{
-    position: relative;
+    position:fixed;
     bottom: 0;
     left: 0;
     right: 0;
