@@ -1,5 +1,8 @@
 Myriam: page services sur le cell - enlever linedin - agrandir footer
-Michael: Text de services - photo homepage - debut homepage
+Michael: Text de services - photo homepage - debut homepage 
+Michael: jai mi une photo ds la home page bas jlai mi ds le header jsp si tu prefere ksa soi ds le 
+         body hek la phrase en vert bteje faw2a aw kif ya dotre photo bas jsp jai aime cella et son 
+         css 7atatyto avc les logo 
 
 
 TO DO:
